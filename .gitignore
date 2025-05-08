@@ -1,0 +1,70 @@
+# Entornos virtuales (venv, .venv, env, etc.)
+venv*/
+.venv/
+env*/
+venv311/  # Específicamente tu entorno virtual
+
+# Archivos de Python temporales/compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Archivos de configuración/entorno
+.env
+.venv
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Sistema operativo
+.DS_Store  # macOS
+Thumbs.db  # Windows
+desktop.ini
+
+# Logs y bases de datos
+*.log
+*.sqlite3
+*.db
+
+# Archivos grandes/data (común en ML/DL)
+*.h5
+*.pt
+*.pth
+*.bin
+*.zip
+*.tar.gz
+*.npz
+
+# PyTorch (por si hay otros archivos grandes)
+*.dll
+*.lib
