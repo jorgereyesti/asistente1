@@ -1,70 +1,40 @@
-# Entornos virtuales (venv, .venv, env, etc.)
-venv*/
-.venv/
-env*/
-venv311/  # Específicamente tu entorno virtual
-
-# Archivos de Python temporales/compilados
+# Archivos de Python
 __pycache__/
 *.py[cod]
-*$py.class
 *.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
 
-# Archivos de configuración/entorno
-.env
-.venv
-.env.local
-.env.development
-.env.test
-.env.production
+# Entornos virtuales
+.env/
+.venv/
+env/
+venv/
+venv311/
+ENV/
 
-# Editor/IDE
+# Configs locales
+*.env
+*.local
+*.log
+
+# IDEs / Sistema
 .vscode/
 .idea/
-*.swp
-*.swo
-*.sublime-workspace
-*.sublime-project
+.DS_Store
+Thumbs.db
 
-# Jupyter Notebook
-.ipynb_checkpoints/
+# Twilio / Credenciales
+*.twilio
+*.pem
 
-# Sistema operativo
-.DS_Store  # macOS
-Thumbs.db  # Windows
-desktop.ini
-
-# Logs y bases de datos
-*.log
-*.sqlite3
-*.db
-
-# Archivos grandes/data (común en ML/DL)
-*.h5
+# Colab / Hugging Face
+*.ipynb
+*.ipynb_checkpoints
+pytorch_model.bin
 *.pt
-*.pth
-*.bin
-*.zip
-*.tar.gz
-*.npz
 
-# PyTorch (por si hay otros archivos grandes)
-*.dll
-*.lib
+# Cache / Modelos
+cache/
+models/
+
+# Otros
+*.csv
